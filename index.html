@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Built-in AI performance measurement</title>
+</head>
+<body>
+  <h1>Built-in AI performance measurement</h1>
+  <ul>
+    <li><b>Total process time:</b> Time between promptStreaming(); triggered and return of the first chunk of the streamed response</li>
+    <li><b>Total Stream time:</b> Time between the return of the first chunk and last chunk</li>
+  </ul>
+  <button id="runModel">Click</button>
+  <div id="totalProcessTime"></div>
+  <div id="totalStreamTime"></div>
+  <div id="totalResponseTime"></div>
+  <div id="response"></div>
+  <div id="table-container"></div>
+
+  <textarea id="summarize-content" rows="5" cols="40"></textarea>
+</body>
+<script src="script.js" type="module"></script>
+</html>
