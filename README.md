@@ -1,5 +1,5 @@
 # Disclaimer
-Demo page: https://nyb1030.github.io/legendary-octo-fiesta
+Demo page: https://nyb1030.github.io/built-in-ai-perf
 
 The code base is built for testing purpose only.
 
